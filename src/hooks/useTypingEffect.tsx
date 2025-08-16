@@ -13,7 +13,6 @@ const useTypingEffect = () => {
     const currentWord = ROLES[index];
 
     if (hold) {
-      // Hold for 3 seconds
       const holdTimeout = setTimeout(() => setHold(false), 2000);
       return () => clearTimeout(holdTimeout);
     }
