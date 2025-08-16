@@ -1,21 +1,21 @@
-import Aboutme from "./Aboutme"
-import Connect from "./Connect"
-import Footer from "./Footer"
+import About from "./About"
 import Header from "./Header"
-import InspiringQuotes from "./InspiringQuotes"
-import Resume from "./Resume"
-import Skills from "./Skills"
+// import Connect from "./Connect"
+// import Footer from "./Footer"
+// import InspiringQuotes from "./InspiringQuotes"
+// import Resume from "./Resume"
+// import Skills from "./Skills"
 
 const Body = () => {
   return (
     <div>
         <Header />
-        <Aboutme />
-        <Skills />
+        <About />
+        {/* <Skills />
         <Resume />
         <InspiringQuotes />
         <Connect />
-        <Footer />
+        <Footer /> */}
     </div>
   )
 }
