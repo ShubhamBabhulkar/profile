@@ -35,7 +35,7 @@ const useTypingEffect = () => {
           setIndex(index + 1);
         }
       }
-    }, deleting ? 50 : 150);
+    }, deleting ? 50 : 100);
 
     return () => clearTimeout(timeout);
   }, [subIndex, index, deleting, hold]);
