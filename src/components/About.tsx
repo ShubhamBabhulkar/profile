@@ -2,6 +2,7 @@ import profileImage from "../assets/profilePhoto.jpg";
 import useTypingEffect from "../hooks/useTypingEffect";
 import linkedin from "../assets/linkedin.png";
 import github from '../assets/github.png';
+import facebook from '../assets/facebook.png';
 
 const About = () => {
   const text = useTypingEffect();
@@ -38,12 +39,23 @@ const About = () => {
               className="w-20 cursor-pointer hover:opacity-80"
             />
           </a>
+           <a
+            href="https://www.facebook.com/shubham.babhulkar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={facebook}
+              alt="linkedin"
+              className="w-11 cursor-pointer hover:opacity-80"
+            />
+          </a>
         </div>
       </div>
 
       <div className="col-span-2 space-y-6 mt-20">
         <h1 className="text-4xl">
-          I am <span className="font-bold animate-blink-caret">{text}</span>
+          I am <span className="font-bold animate-blink-caret">{text}</span><span className=" text-gray-500 ml-1">|</span>
         </h1>
 
         <div className="w-4/6">
