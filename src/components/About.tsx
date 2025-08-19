@@ -2,7 +2,6 @@ import profileImage from "../assets/profilePhoto.jpg";
 import useTypingEffect from "../hooks/useTypingEffect";
 import linkedin from "../assets/linkedin.png";
 import github from '../assets/github.png';
-import email from '../assets/email.png';
 
 const About = () => {
   const text = useTypingEffect();
