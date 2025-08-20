@@ -10,7 +10,9 @@ const Body = () => {
   return (
     <div>
         <Header />
-        <About />
+        <div className="mb-30">
+          <About />
+        </div>
         <Skills />
         <Resume />
         <InspiringQuotes />
