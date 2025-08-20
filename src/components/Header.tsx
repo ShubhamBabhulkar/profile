@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
-const Header = ({ scrollToSection }) => {
+const Header = ({ scrollToSection }: any) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = ["About", "Skills", "Resume", "Connect"]; // updated to match your sections
