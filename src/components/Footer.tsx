@@ -10,7 +10,7 @@ const Footer = () => {
   <img
     src={footer}
     alt="footer-img"
-    className="w-1/2 h-auto object-cover"
+    className="w-screen md:w-1/2 object-cover"
   />
 </footer>
 
