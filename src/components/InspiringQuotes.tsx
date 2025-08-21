@@ -47,7 +47,7 @@ const [index, setIndex] = useState(0);
             <button
               key={i}
               onClick={() => setIndex(i)}
-              className={`w-3 h-3 rounded-full transition ${
+              className={`w-3 h-3 rounded-full transition cursor-pointer ${
                 i === index ? "bg-white" : "bg-white/50"
               }`}
             ></button>
