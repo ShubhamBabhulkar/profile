@@ -34,7 +34,7 @@ const Body = () => {
       <div ref={aboutRef}><About /></div>
       <div ref={skillsRef}><Skills /></div>
       <div ref={resumeRef}><Resume /></div>
-      <InspiringQuotes />
+      <div><InspiringQuotes /></div>
       <div ref={connectRef}><Connect /></div>
       <Footer />
     </div>

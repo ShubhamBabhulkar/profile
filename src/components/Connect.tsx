@@ -50,7 +50,7 @@ const Connect = () => {
             whileHover={{ scale: 1.15 }}
             className="flex items-center gap-3 bg-white px-6 py-3 rounded-xl shadow-md hover:shadow-lg border border-gray-200 hover:border-[#2daab8] transition"
           >
-            <FaLinkedin className="text-[#2daab8] text-2xl" />
+            <FaLinkedin className="text-[#0a66c2] text-2xl" />
             <span className="text-gray-700 font-medium">LinkedIn</span>
           </motion.a>
 
